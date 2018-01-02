@@ -1,3 +1,5 @@
+##Please store the extracted folder containing the dataset to the working directory
+
 directory <- getwd()
 file_path <- paste(directory,"/","exdata_data_household_power_consumption","/","household_power_consumption.txt",sep="")
 table1 <- read.delim(file_path, sep = ";",na.strings = "?")
